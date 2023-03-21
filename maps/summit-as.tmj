@@ -1466,7 +1466,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"sommet-as.png"
+         "value":"summit-as.png"
         }, 
         {
          "name":"mapName",
