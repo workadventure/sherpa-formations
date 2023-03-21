@@ -234,7 +234,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/sherpa\/metavers\/agora#from-{{{mountain}}}#from-af"
+                         "value":"\/@\/sherpa\/metavers\/agora#{{{mountain}}}"
                         }],
                  "type":"tilelayer",
                  "visible":true,
