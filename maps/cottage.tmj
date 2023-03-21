@@ -1121,7 +1121,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"M\u00e9tavers de Sherpa Consulting: Chalet"
+         "value":"M\u00e9tavers de Sherpa Consulting: Cottage"
         }, 
         {
          "name":"mapImage",
@@ -1131,7 +1131,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Chalet"
+         "value":"Cottage"
         }, 
         {
          "name":"script",

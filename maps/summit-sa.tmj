@@ -1461,7 +1461,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"M\u00e9tavers de Sherpa Consulting: Sommet SA"
+         "value":"M\u00e9tavers de Sherpa Consulting: Summit SA"
         }, 
         {
          "name":"mapImage",
@@ -1471,7 +1471,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Sommet SA"
+         "value":"Summit SA"
         }, 
         {
          "name":"script",
