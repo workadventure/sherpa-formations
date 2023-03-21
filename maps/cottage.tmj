@@ -958,22 +958,11 @@
                  "width":288,
                  "x":704,
                  "y":416
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":62,
-         "name":"configuration",
-         "objects":[
+                }, 
                 {
                  "class":"variable",
                  "height":0,
-                 "id":23,
+                 "id":28,
                  "name":"mountain",
                  "point":true,
                  "properties":[
@@ -983,33 +972,17 @@
                          "value":""
                         }, 
                         {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Nom de la montagne (ne pas modifier)"
-                        }, 
-                        {
                          "name":"persist",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"readableBy",
-                         "type":"string",
-                         "value":"editor"
                         }],
                  "rotation":0,
                  "visible":true,
                  "width":0,
-                 "x":508,
-                 "y":864
+                 "x":512,
+                 "y":896
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"tag",
-                 "type":"string",
-                 "value":"editor"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -1110,7 +1083,7 @@
          "y":0
         }],
  "nextlayerid":70,
- "nextobjectid":28,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "properties":[
         {
