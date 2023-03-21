@@ -90,7 +90,7 @@ WA.onInit().then(() => {
             console.log("Cottage map")
            
             // We are in a Cottage map, ex: 'everest-cottage'
-            const parts = roomName?.split("-")
+            let parts = roomName?.split("-")
             parts?.pop()
             WA.state.mountain = parts
         }
