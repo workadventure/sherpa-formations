@@ -92,7 +92,7 @@ WA.onInit().then(() => {
             // We are in a Cottage map, ex: 'everest-cottage'
             let parts = roomName?.split("-")
             parts?.pop()
-            WA.state.mountain = parts
+            WA.state.mountain = parts?.join("-")
         }
 
         WA.room.area.onEnter("flag").subscribe(() => {
