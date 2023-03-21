@@ -44,6 +44,17 @@ WA.onInit().then(() => {
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
+
+        WA.room.area.onEnter("flag").subscribe(() => {
+            const button: ButtonDescriptor[] = [{
+                label: "En savoir plus",
+                className: "primary",
+                callback: () => WA.nav.openCoWebSite(WA.state.flagWebsite as string),
+            }]
+            currentPopup = WA.ui.openPopup("flagPopup", `Vous êtes arrivé à ${WA.state.flagHeight} mètres d'altitude !`, button)
+        })
+
+        WA.room.area.onLeave("flag").subscribe(closePopup)
     }).catch(e => console.error(e));
 
 }).catch(e => console.error(e));
@@ -58,21 +69,20 @@ const closePopup = () => {
 const listenRegionSign = (region: string) => {
     WA.room.area.onEnter(region).subscribe(() => {
         //@ts-ignore
-        currentPopup = WA.ui.openPopup(region+"_Popup", MOUNTAINS[region].join('\n'), []);
+        currentPopup = WA.ui.openPopup(region+"_Popup", MOUNTAINS[region].join('\n'), [])
     })
 
     WA.room.area.onLeave(region).subscribe(closePopup)
 }
 
 const listenMountainSign = (mountain: string) => {
-    console.log(slugify(mountain))
     WA.room.area.onEnter(mountain).subscribe(() => {
         const button: ButtonDescriptor[] = [{
             label: "Monter",
             className: "primary",
             callback: () => WA.nav.goToRoom("/@/sherpa/metavers/"+slugify(mountain)),
         }]
-        currentPopup = WA.ui.openPopup(mountain+"_Popup", "Monter au sommet du "+mountain, button);
+        currentPopup = WA.ui.openPopup(mountain+"_Popup", "Monter au sommet du "+mountain, button)
     })
 
     WA.room.area.onLeave(mountain).subscribe(closePopup)
