@@ -1106,7 +1106,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"cottage.png"
         }, 
         {
          "name":"mapName",
