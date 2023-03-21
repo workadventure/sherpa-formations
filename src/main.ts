@@ -77,19 +77,19 @@ WA.onInit().then(() => {
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
 
-        const mapURL = WA.room.mapURL
-        const mapName = mapURL.split("/").pop()
+        const roomID = WA.room.id
+        const roomName = roomID.split("/").pop()
 
         if (WA.state.hasVariable('flagHeight')) {
             console.log("Summit map")
             // We are in a Summit map, ex: 'everest'
             //@ts-ignore
-            WA.state.flagHeight = MOUNTAINS_HEIGHT[mapName]
-            WA.state.mountain = mapName
+            WA.state.flagHeight = MOUNTAINS_HEIGHT[roomName]
+            WA.state.mountain = roomName
         } else  if (WA.state.hasVariable('mountain')) {
             console.log("Cottage map")
             // We are in a Cottage map, ex: 'everest-cottage'
-            WA.state.mountain = mapName?.split("-").shift()
+            WA.state.mountain = roomName?.split("-").shift()
         }
 
         WA.room.area.onEnter("flag").subscribe(() => {
