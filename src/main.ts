@@ -88,8 +88,10 @@ WA.onInit().then(() => {
             WA.state.mountain = roomName
         } else  if (WA.state.hasVariable('mountain')) {
             console.log("Cottage map")
+           
             // We are in a Cottage map, ex: 'everest-cottage'
-            WA.state.mountain = roomName?.split("-").shift()
+            const mountain = roomName?.split("-").pop()
+            WA.state.mountain = mountain
         }
 
         WA.room.area.onEnter("flag").subscribe(() => {
