@@ -234,7 +234,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/sherpa\/metavers\/agora#from-{{{mountain}}}"
+                         "value":"\/@\/sherpa\/metavers\/agora#from-{{{mountain}}}#from-na"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -396,7 +396,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/sherpa\/metavers\/{{{mountain}}}-cottage"
+                         "value":"\/@\/sherpa\/metavers\/{{{mountain}}}-cottage#from-summit"
                         }],
                  "type":"tilelayer",
                  "visible":true,

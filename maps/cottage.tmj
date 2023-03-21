@@ -396,6 +396,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/sherpa-formation-a3ef6.web.app\/#\/"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE pour ouvrir Sherpa & You"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -444,6 +454,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/learn.beedeez.com\/?userId=5ae9b144dbaa4900049048f8"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyez sur ESPACE pour ouvrir Sherpa & Me"
                         }],
                  "type":"tilelayer",
                  "visible":true,

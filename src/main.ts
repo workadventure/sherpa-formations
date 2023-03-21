@@ -80,7 +80,7 @@ const listenMountainSign = (mountain: string) => {
         const button: ButtonDescriptor[] = [{
             label: "Monter",
             className: "primary",
-            callback: () => WA.nav.goToRoom("/@/sherpa/metavers/"+slugify(mountain)),
+            callback: () => WA.nav.goToRoom("/@/sherpa/metavers/"+slugify(mountain)+"#from-agora"),
         }]
         currentPopup = WA.ui.openPopup(mountain+"_Popup", "Monter au sommet du "+mountain, button)
     })
