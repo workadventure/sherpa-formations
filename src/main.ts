@@ -90,8 +90,9 @@ WA.onInit().then(() => {
             console.log("Cottage map")
            
             // We are in a Cottage map, ex: 'everest-cottage'
-            const mountain = roomName?.split("-").pop()
-            WA.state.mountain = mountain
+            const parts = roomName?.split("-")
+            parts?.pop()
+            WA.state.mountain = parts
         }
 
         WA.room.area.onEnter("flag").subscribe(() => {
