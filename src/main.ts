@@ -73,6 +73,12 @@ WA.onInit().then(() => {
         listenMountainSign(mountain)
     }
 
+    WA.room.area.onEnter("Cottage_Sign").subscribe(() => {
+        currentPopup = WA.ui.openPopup("Cottage_Sign_Popup", "Entrez dans le chalet pour suivre votre formation.", [])
+    })
+
+    WA.room.area.onLeave("Cottage_Sign").subscribe(closePopup)
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
