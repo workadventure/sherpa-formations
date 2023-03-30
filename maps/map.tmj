@@ -2439,6 +2439,24 @@
                  "width":32,
                  "x":12128,
                  "y":2848
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":124,
+                 "name":"joinMe",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"bool",
+                         "value":false
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":5782.66666666667,
+                 "y":4305.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2815,7 +2833,7 @@
          "y":0
         }],
  "nextlayerid":70,
- "nextobjectid":124,
+ "nextobjectid":125,
  "orientation":"orthogonal",
  "properties":[
         {
