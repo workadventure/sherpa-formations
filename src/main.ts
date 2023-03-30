@@ -47,7 +47,7 @@ const MOUNTAINS_HEIGHT = {
     "k2": 8611
 }
 // Waiting for the API to be ready
-WA.onInit().then(() => {
+WA.onInit().then(async () => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
@@ -80,7 +80,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave("Cottage_Sign").subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-    bootstrapExtra().then(() => {
+    bootstrapExtra().then(async () => {
         console.log('Scripting API Extra ready');
 
         const roomID = WA.room.id
@@ -111,6 +111,15 @@ WA.onInit().then(() => {
         })
 
         WA.room.area.onLeave("flag").subscribe(closePopup)
+
+        // Gather people arround me (if in the same map)
+        WA.state.onVariableChange('joinMe').subscribe(() => {
+            gatherPeople()
+        })
+
+        if (WA.player.tags.includes('admin')) {
+            // afficher le bouton "Par ici !" qui trigger la variable 'joinMe'
+        }
     }).catch(e => console.error(e));
 
 }).catch(e => console.error(e));
@@ -157,6 +166,15 @@ const slugify = (string: string) => {
       .replace(/\-\-+/g, '-') // Replace multiple - with single -
       .replace(/^-+/, '') // Trim - from start of text
       .replace(/-+$/, '') // Trim - from end of text
+}
+
+const gatherPeople = async () => {
+    try {
+        const myPosition = await WA.player.getPosition()
+        WA.player.moveTo(myPosition.x, myPosition.y)
+    } catch (e) {
+        throw e
+    }
 }
 
 export {};
