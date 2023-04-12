@@ -234,6 +234,11 @@
                          "value":"https:\/\/app.eraser.io\/integration\/workadventure\/sherpa-{{{ mountain }}}"
                         }, 
                         {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
                          "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onicon"
