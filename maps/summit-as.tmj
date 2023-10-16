@@ -822,29 +822,28 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":96,
                  "id":24,
                  "name":"flag",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":96,
                  "x":887.666666666667,
                  "y":390.333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":25,
                  "name":"flagPopup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":871.666666666667,
                  "y":205.333333333333
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":31,
                  "name":"mountain",
@@ -861,13 +860,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1318.33,
                  "y":1680.73
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":32,
                  "name":"flagHeight",
@@ -884,45 +883,29 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1088,
                  "y":416
                 }, 
                 {
-                 "class":"area",
-                 "height":672,
-                 "id":33,
-                 "name":"Sumeet",
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Sumeet"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":864,
-                 "x":800,
-                 "y":1376
-                }, 
-                {
-                 "class":"area",
                  "height":92,
                  "id":34,
                  "name":"Cottage_Sign",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":128,
                  "x":1184,
                  "y":1600
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":35,
                  "name":"Cottage_Sign_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":1152,
@@ -940,7 +923,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":23,
                  "name":"barrierOpen",
@@ -962,13 +944,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1286.66666666667,
                  "y":1859.39393939394
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":26,
                  "name":"flagWebsite",
@@ -990,6 +972,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1255,
@@ -1278,7 +1261,7 @@
          "value":"\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -6633,6 +6616,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":64
 }

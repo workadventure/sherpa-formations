@@ -1112,39 +1112,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
-                 "height":448,
-                 "id":21,
-                 "name":"jitsiMeetingRoom",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"MeetingRoom"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":672,
-                 "x":5920,
-                 "y":4416
-                }, 
-                {
-                 "class":"area",
                  "height":192,
                  "id":22,
                  "name":"silentZone",
@@ -1155,783 +1122,783 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":1101.33333333333,
                  "x":5760,
                  "y":5184
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":23,
                  "name":"SA",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":320,
                  "x":4864,
                  "y":4704
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":24,
                  "name":"SA_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":4896,
                  "y":4576
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":25,
                  "name":"NA",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":320,
                  "x":5344,
                  "y":3904
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":26,
                  "name":"NA_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":5376,
                  "y":3776
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":27,
                  "name":"AF",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":320,
                  "x":6496,
                  "y":3808
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":28,
                  "name":"AF_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":6528,
                  "y":3680
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":29,
                  "name":"FR",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":320,
                  "x":7136,
                  "y":4032
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":30,
                  "name":"FR_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":7168,
                  "y":3904
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":31,
                  "name":"AS",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":320,
                  "x":7264,
                  "y":4576
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":32,
                  "name":"AS_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":7296,
                  "y":4448
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":33,
                  "name":"Aconc\u00e1gua",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":4000,
                  "y":4480
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":34,
                  "name":"Aconc\u00e1gua_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":4000,
                  "y":4352
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":35,
                  "name":"Monte Pissis",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":2848,
                  "y":4032
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":36,
                  "name":"Monte Pissis_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":2848,
                  "y":3904
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":37,
                  "name":"Walther Penck",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":1888,
                  "y":4704
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":38,
                  "name":"Walther Penck_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":1888,
                  "y":4576
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":39,
                  "name":"Nevado Ojos del Salado",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":800,
                  "y":4928
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":40,
                  "name":"Nevado Ojos del Salado_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":800,
                  "y":4800
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":41,
                  "name":"Cerro Bonete",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":3040,
                  "y":5152
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":42,
                  "name":"Cerro Bonete_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":3040,
                  "y":5024
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":43,
                  "name":"Huascar\u00e1n",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":1248,
                  "y":3680
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":44,
                  "name":"Huascar\u00e1n_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":1248,
                  "y":3552
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":45,
                  "name":"Pic d'Orizaba",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":4800,
                  "y":3456
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":46,
                  "name":"Pic d'Orizaba_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":4800,
                  "y":3328
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":47,
                  "name":"Mont Saint-\u00c9lie",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":4192,
                  "y":2144
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":48,
                  "name":"Mont Saint-\u00c9lie_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":4128,
                  "y":2016
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":49,
                  "name":"Popocat\u00e9petl",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":3488,
                  "y":2752
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":50,
                  "name":"Popocat\u00e9petl_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":3488,
                  "y":2624
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":51,
                  "name":"Mont Shasta",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":2048,
                  "y":2112
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":52,
                  "name":"Mont Shasta_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":2048,
                  "y":1984
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":53,
                  "name":"Mont Logan",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":2624,
                  "y":1280
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":54,
                  "name":"Mont Logan_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":2560,
                  "y":1152
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":55,
                  "name":"Denali",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":1920,
                  "y":1088
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":56,
                  "name":"Denali_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":1920,
                  "y":960
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":57,
                  "name":"Kilimanjaro",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":6848,
                  "y":3008
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":58,
                  "name":"Kilimanjaro_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":6848,
                  "y":2880
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":59,
                  "name":"Mont M\u00e9ru",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":6208,
                  "y":2496
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":60,
                  "name":"Mont M\u00e9ru_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":6208,
                  "y":2368
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":61,
                  "name":"Mont Kenya",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":6848,
                  "y":1696
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":62,
                  "name":"Mont Kenya_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":6784,
                  "y":1568
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":63,
                  "name":"Ras Dashan",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":7776,
                  "y":896
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":64,
                  "name":"Ras Dashan_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":7776,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":65,
                  "name":"Mont Stanley",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":5664,
                  "y":864
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":66,
                  "name":"Mont Stanley_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":5664,
                  "y":736
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":67,
                  "name":"Mont Elgon",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":6304,
                  "y":800
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":68,
                  "name":"Mont Elgon_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":6240,
                  "y":672
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":69,
                  "name":"Mont Blanc du Tacul",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":10496,
                  "y":832
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":70,
                  "name":"Mont Blanc du Tacul_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":10432,
                  "y":704
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":71,
                  "name":"Grandes Jorasses",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":11776,
                  "y":960
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":72,
                  "name":"Grandes Jorasses_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":11776,
                  "y":832
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":73,
                  "name":"D\u00f4me du Go\u00fbter",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":9664,
                  "y":2080
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":74,
                  "name":"D\u00f4me du Go\u00fbter_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":9600,
                  "y":1952
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":75,
                  "name":"Col de la Forclaz",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":8128,
                  "y":3616
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":76,
                  "name":"Col de la Forclaz_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":8128,
                  "y":3488
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":77,
                  "name":"Mont Maudit",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":10496,
                  "y":1984
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":78,
                  "name":"Mont Maudit_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":10496,
                  "y":1856
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":79,
                  "name":"Mont Blanc",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":9984,
                  "y":3136
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":80,
                  "name":"Mont Blanc_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":9984,
                  "y":3008
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":81,
                  "name":"K2",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":12192,
                  "y":2752
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":82,
                  "name":"K2_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":12192,
                  "y":2624
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":83,
                  "name":"Cho Oyu",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":11424,
                  "y":3776
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":84,
                  "name":"Cho Oyu_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":11424,
                  "y":3648
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":85,
                  "name":"Kanchenjunga",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":12224,
                  "y":4480
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":86,
                  "name":"Kanchenjunga_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":12224,
                  "y":4352
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":87,
                  "name":"Makalu",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":10880,
                  "y":4800
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":88,
                  "name":"Makalu_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":10880,
                  "y":4672
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":89,
                  "name":"Lhotse",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":8736,
                  "y":4832
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":90,
                  "name":"Lhotse_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":8736,
                  "y":4704
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":91,
                  "name":"Everest",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":10080,
                  "y":4320
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":92,
                  "name":"Everest_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":10080,
                  "y":4192
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":94,
                  "name":"aconcagua",
@@ -1942,13 +1909,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":4224,
                  "y":4576
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":95,
                  "name":"cerro-bonete",
@@ -1959,13 +1926,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":3264,
                  "y":5248
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":96,
                  "name":"nevado-ojos-del-salado",
@@ -1976,13 +1943,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":1024,
                  "y":5024
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":97,
                  "name":"walther-penck",
@@ -1993,13 +1960,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":2112,
                  "y":4800
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":98,
                  "name":"monte-pissis",
@@ -2010,13 +1977,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":3072,
                  "y":4128
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":99,
                  "name":"huascaran",
@@ -2027,13 +1994,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":1472,
                  "y":3776
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":100,
                  "name":"pic-dorizaba",
@@ -2044,13 +2011,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":5024,
                  "y":3552
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":101,
                  "name":"popocatepetl",
@@ -2061,13 +2028,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":3712,
                  "y":2848
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":102,
                  "name":"mont-shasta",
@@ -2078,13 +2045,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":2272,
                  "y":2208
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":103,
                  "name":"denali",
@@ -2095,13 +2062,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":2144,
                  "y":1184
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":104,
                  "name":"mont-saint-elie",
@@ -2112,13 +2079,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":4128,
                  "y":2240
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":105,
                  "name":"mont-logan",
@@ -2129,13 +2096,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":2560,
                  "y":1376
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":106,
                  "name":"mont-meru",
@@ -2146,13 +2113,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":6432,
                  "y":2592
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":107,
                  "name":"kilimanjaro",
@@ -2163,13 +2130,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":6784,
                  "y":3104
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":108,
                  "name":"mont-kenya",
@@ -2180,13 +2147,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":6784,
                  "y":1792
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":109,
                  "name":"mont-stanley",
@@ -2197,13 +2164,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":5888,
                  "y":960
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":110,
                  "name":"mont-elgon",
@@ -2214,13 +2181,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":6240,
                  "y":896
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":111,
                  "name":"ras-dashan",
@@ -2231,13 +2198,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":7712,
                  "y":992
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":112,
                  "name":"grandes-jorasses",
@@ -2248,13 +2215,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":11712,
                  "y":1056
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":113,
                  "name":"mont-blanc-du-tacul",
@@ -2265,13 +2232,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":10720,
                  "y":928
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":114,
                  "name":"mont-maudit",
@@ -2282,13 +2249,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":10432,
                  "y":2080
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":115,
                  "name":"dome-du-gouter",
@@ -2299,13 +2266,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":9888,
                  "y":2176
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":116,
                  "name":"mont-blanc",
@@ -2316,13 +2283,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":9920,
                  "y":3232
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":117,
                  "name":"col-de-la-forclaz",
@@ -2333,13 +2300,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":8064,
                  "y":3712
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":118,
                  "name":"lhotse",
@@ -2350,13 +2317,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":8672,
                  "y":4928
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":119,
                  "name":"makalu",
@@ -2367,13 +2334,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":10816,
                  "y":4896
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":120,
                  "name":"everest",
@@ -2384,13 +2351,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":10016,
                  "y":4416
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":121,
                  "name":"cho-oyu",
@@ -2401,13 +2368,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":11360,
                  "y":3872
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":122,
                  "name":"kanchenjunga",
@@ -2418,13 +2385,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":12160,
                  "y":4576
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":123,
                  "name":"k2",
@@ -2435,13 +2402,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":12128,
                  "y":2848
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":124,
                  "name":"joinMe",
@@ -2453,6 +2420,7 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":5782.66666666667,
@@ -2862,7 +2830,7 @@
          "value":"\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -40132,6 +40100,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":410
 }

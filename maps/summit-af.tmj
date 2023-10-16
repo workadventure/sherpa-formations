@@ -822,29 +822,28 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":96,
                  "id":24,
                  "name":"flag",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":96,
                  "x":731.333333333333,
                  "y":490
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":25,
                  "name":"flagPopup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":715.333333333333,
                  "y":305
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":33,
                  "name":"mountain",
@@ -861,13 +860,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":960,
                  "y":1728
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":34,
                  "name":"flagHeight",
@@ -884,45 +883,29 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":896,
                  "y":576
                 }, 
                 {
-                 "class":"area",
-                 "height":480,
-                 "id":37,
-                 "name":"Sumeet",
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Sumeet"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":1280,
-                 "x":288,
-                 "y":1408
-                }, 
-                {
-                 "class":"area",
                  "height":92,
                  "id":38,
                  "name":"Cottage_Sign",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":128,
                  "x":800,
                  "y":1568
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":39,
                  "name":"Cottage_Sign_Popup",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":256,
                  "x":768,
@@ -940,7 +923,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":35,
                  "name":"barrierOpen",
@@ -962,13 +944,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":960,
                  "y":1854.67
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":36,
                  "name":"flagWebsite",
@@ -990,6 +972,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1094.667,
@@ -1278,7 +1261,7 @@
          "value":"\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -6633,6 +6616,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":64
 }
